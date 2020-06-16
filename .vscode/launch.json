@@ -4,12 +4,20 @@
 		{
 			"type": "totvs_language_debug",
 			"request": "launch",
-			"name": "Totvs Language Debug",
+			"name": "Protheus12_1_23 - Local",
 			"program": "${command:AskForProgramName}",
 			"cwb": "${workspaceFolder}",
-			"smartclientBin": "C:/totvs/bin/smartclient/smartclient.exe",
+			"smartclientBin": "D:/TOTVS/Protheus/Protheus12.1.23/Protheus12/bin/smartclient/smartclient.exe",
 			"isMultiSession": true,
 			"enableTableSync": true
 		}
-	]
+	],
+	"lastPrograms": [
+		{
+			"args": [],
+			"label": "sigamdi",
+			"description": ""
+		}
+	],
+	"lastProgramExecuted": "sigamdi"
 }
