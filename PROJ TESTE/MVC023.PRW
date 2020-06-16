@@ -6,7 +6,7 @@
 #DEFINE ROTINA_FILE				"MVC023.prw"
 #DEFINE VERSAO_ROTINA			"V" + Trim(AllToChar(GetAPOInfo(ROTINA_FILE)[04])) + "-" + Trim(AllToChar(GetAPOInfo(ROTINA_FILE)[05])) + "[" + Trim(AllToChar(GetAPOInfo(ROTINA_FILE)[03])) + "]"
 
-#Define ALIAS_FORM0 			"ZNK" //Informe o Alias da Tabela
+#Define ALIAS_FORM0 			"ZNK" 
 #Define ALIAS_GRID0 			"ZNL"
 #Define MODELO					"MVC023"
 #Define ID_MODEL				"MVC023_M"
@@ -24,14 +24,11 @@
 
 /*/{Protheus.doc} MVC023
 
-Fonte Modelo de MVC - Interface Modelo 2
-REMOVA COMENTÁRIOS, FUNÇÕES NÃO USADAS AO USAR O MODELO
 
 @type function
-@author Carlos Eduardo Niemeyer Rodrigues
-@since 18/08/2017
-@version P11,P12
-@database MSSQL,Oracle
+@author Thais Grepe
+@since 16/06/2020
+@version 
 
 @param [aAutoCab], Array, Array com os Dados do Cabeçalho no Formato de Rotina Automática (Vide Campos de Cabeçalho na Interface)
 @param [aAutoItens], Array, Array com os Dados dos Itens no Formato de Rotina Automática
